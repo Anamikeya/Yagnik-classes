@@ -11,7 +11,7 @@ int add(int& nick_name_A, int& nick_name_B)
 	return nick_name_A + nick_name_B;
 }
 
-int main()
+int main_Func()
 {
 	std::cout << " hello World" << std::endl;
 	int a = 5;
@@ -19,5 +19,5 @@ int main()
 	int sum = add(a, b);
 	
 	std::cout <<  a << " + " << b << " = "<< sum;
-
+	return 0;
 }
