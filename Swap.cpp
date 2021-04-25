@@ -1,6 +1,6 @@
 #include<iostream>
 
-int main()
+int main_swap()
 {
 	int a, b;
 	std::cout << "Enter the value of a : "; std::cin >> a;
@@ -17,5 +17,6 @@ int main()
 	std::cout << "a : " << a << std::endl;
 	std::cout << "b : " << b << std::endl;
 	std::cin.get();
+	return 0;
 
 }
