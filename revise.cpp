@@ -1,5 +1,7 @@
 #include<iostream>
 #include<cmath>
+#include<vector>
+
 
 void Log(const char* message)
 {
@@ -20,11 +22,40 @@ float add(int a, float b)
 	return a + b;
 
 }
-
-int main()
-
+void append(int x)
 {
-	/*int int_a = 5;
+	std::vector<int> d_array;
+	d_array.push_back(x);
+}
+int operate(int x)
+{
+	int y, z;
+	std::cin >> y; std::cin >> z;
+
+	return x * y / z;
+}
+/*int main()
+{
+	
+	int x;
+	std::cin >> x;
+	int result = operate(x);
+	{
+		int mul = x*9;
+		std::cout << mul;
+		
+	}
+	//std::cout << mul;
+	std::cout << result;
+}*/
+/*
+int main()
+{
+	
+	
+	/*
+	
+	int int_a = 5;
 	float float_b = 9.00;
 	double double_c =8.00776;
 	bool bool_d =  false;
@@ -37,6 +68,7 @@ int main()
 	std::cout << sizeof(bool_d) << "bytes" << std::endl;
 	std::cout <<sizeof(auto_variable) <<std::endl;
 	std::cout << sizeof(char_e) << "bytes" << std::endl;
+	
 	*/
 	
 	/*
@@ -73,10 +105,11 @@ int main()
 	
 	}
 	*/
+	/*
 	bool running = true;
 	std::string a;
 	const char* randchar = "o";
-	while (std::cin >>  a && running)
+	while (std::cin >> a)
 	{
 		if (a == "o")
 		{
@@ -88,5 +121,49 @@ int main()
 		}
 		
 	}
+	*/
+	/*
 	
+	int array1[100];
+	std::cout << array1 << std::endl;
+	array1[0] = 20;
+	array1[1] = 100;
+	array1[5] = 25;
+	std::cin.get();
+	*/
+
+	/*
+	std::vector<int> list1;
+	int x = 9;
+	list1.push_back(8);
+	list1[0];
+	list1.push_back(x);
+	list1[1];
+	append(10);
+	std::cout << d_array[0] << std::cout;
+	std::cin.get();
+
 }
+*/
+
+//int main()
+//{
+	/*
+	int rev[100];
+	int n;
+	std::cout << "Give size: "; std::cin >> n;
+	for (int i = 0; i < n; i++)
+	{
+		std::cin >> rev[i];
+	}
+	std::cout << "Reversed-----------------------\n";
+	for(int i = n - 1; i >= 0; --i)
+	{
+		std::cout << rev[i] << " ";
+	}
+*/
+
+//largest number in an array
+
+
+//}
