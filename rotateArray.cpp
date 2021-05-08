@@ -23,7 +23,7 @@ void printArray(int arr[],int size)
 	std::cout << std::endl;
 
 }
-int main()
+void main_rotateArray()
 {
 	int array[1000];
 	int size;
