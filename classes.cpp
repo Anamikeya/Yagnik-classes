@@ -103,7 +103,7 @@ public:
 	}
 };
 
-int main()
+int main_classes()
 {
 	
 	Player First("Anurag", 25, 9, 6);
@@ -120,4 +120,5 @@ int main()
 	}
 	
 	std::cout << "Hello World\n";
+	return 0;
 }
