@@ -22,7 +22,7 @@ void PrintArray(int arr[], int size)
 		std::cout << arr[i] <<" ";
 	std::cout << std::endl;
 }
-int main()
+int ss_main()
 {
 	int array[100];
 	int size;
@@ -83,5 +83,5 @@ int main()
 	insertElement(array, size, element, position);
 
 	PrintArray(array, size + 1);
-
+	return 0;
 }
